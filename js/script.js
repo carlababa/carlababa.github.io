@@ -1,12 +1,10 @@
 function hover(img) {
 	img.setAttribute('src', 'img/carla3-mod.jpg');
-  img.classList.remove('animated', 'jello');
 	img.classList.add('animated', 'rubberBand');
 }
 function unhover(img) {
 		img.setAttribute('src', 'img/carla2-mod.jpg');
 		img.classList.remove('animated', 'rubberBand');
-    img.classList.add('animated', 'jello');
 }
 
 function hoverStar(img) {
