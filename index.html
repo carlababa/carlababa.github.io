@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Carla Babadopulos - Portifolio</title>
+    <title>Carla Babadopulos</title>
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -21,6 +21,7 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -74,10 +75,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive img-circle" src="img/carla1.jpg" alt="">
+                    <img class="img-responsive img-circle" src="img/carla2-mod.jpg" alt="" onmouseover="hover(this)" onmouseout="unhover(this)">
                     <div class="intro-text">
                         <span class="name">Carla Babadopulos</span>
-                        <hr class="star-light">
+                        <hr class="star-light" onmouseover="hoverStar(this)" onmouseout="unhoverStar(this)">
                         <span class="skills">Web Developer</span>
                     </div>
                 </div>
@@ -91,7 +92,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Portfolio</h2>
-                    <hr class="star-primary">
+                    <hr class="star-primary" onmouseover="hoverStar(this)" onmouseout="unhoverStar(this)">
                 </div>
             </div>
             <div class="row">
@@ -135,7 +136,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>About</h2>
-                    <hr class="star-light">
+                    <hr class="star-light" onmouseover="hoverStar(this)" onmouseout="unhoverStar(this)">
                 </div>
             </div>
             <div class="row">
@@ -164,13 +165,13 @@
                     <div class="footer-col col-md-12">
                         <h3>Contact Me</h3>
                         <ul class="list-inline">
-                            <li>
+                            <li onmouseover="hoverContact(this)" onmouseout="unhoverContact(this)">
                                 <a href="mailto:cacababa@gmail.com" target="_blank" class="btn-social btn-outline" title="E-mail"><i class="fa fa-fw fa-envelope"></i></a>
                             </li>
-                            <li>
+                            <li onmouseover="hoverContact(this)" onmouseout="unhoverContact(this)">
                                 <a href="http://linkedin.com/in/carlababa" target="_blank" class="btn-social btn-outline" title="Linkedin"><i class="fa fa-fw fa-linkedin"></i></a>
                             </li>
-                            <li>
+                            <li onmouseover="hoverContact(this)" onmouseout="unhoverContact(this)">
                                 <a href="http://github.com/carlababa" target="_blank" class="btn-social btn-outline" title="Github"><i class="fa fa-fw fa-github"></i></a>
                             </li>
                         </ul>
@@ -310,6 +311,7 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/freelancer.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 
